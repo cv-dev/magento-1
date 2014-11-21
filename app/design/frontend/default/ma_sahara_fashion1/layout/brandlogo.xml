@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name = "head">
+            <action method="addCss">
+                <script>magentothem/brandlogo/css/brandlogo.css</script>
+            </action>
+        </reference>   
+    </default>
+    <cms_index_index translate="label">
+	 <reference name="left">
+            <block type="brandlogo/brandlogo"  after="ma.verticalmenuleft"  name="brandlogo" template="magentothem/brandlogo/brandlogo.phtml" />
+        </reference>
+    </cms_index_index>
+    <brandlogo_index_index>
+        <reference name="content">
+            <block type="brandlogo/brandlogo" name="brandlogo" template="magentothem/brandlogo/brandlogo.phtml" />
+        </reference>
+    </brandlogo_index_index>
+    <brandlogo_index_view>
+        <reference name="content">
+            <block type="brandlogo/brandview" name="brandlogo.view" template="magentothem/brandlogo/brandview.phtml">
+                <block type="catalog/product_list_toolbar" name="product_list_toolbar" template="catalog/product/list/toolbar.phtml">
+                    <block type="page/html_pager" name="product_list_toolbar_pager"/>
+                </block>
+                <action method="addColumnCountLayoutDepend"><layout>empty</layout><count>6</count></action>
+                <action method="addColumnCountLayoutDepend"><layout>one_column</layout><count>5</count></action>
+                <action method="addColumnCountLayoutDepend"><layout>two_columns_left</layout><count>4</count></action>
+                <action method="addColumnCountLayoutDepend"><layout>two_columns_right</layout><count>4</count></action>
+                <action method="addColumnCountLayoutDepend"><layout>three_columns</layout><count>3</count></action>
+                <action method="setToolbarBlockName"><name>product_list_toolbar</name></action>
+            </block>
+        </reference>
+    </brandlogo_index_view>
+	 <brandlogo_index_brands>
+        <reference name="content">
+            <block type="brandlogo/brandlogo" name="brandlogo.brands" template="magentothem/brandlogo/brands.phtml" />
+        </reference>
+    </brandlogo_index_brands>
+</layout> 

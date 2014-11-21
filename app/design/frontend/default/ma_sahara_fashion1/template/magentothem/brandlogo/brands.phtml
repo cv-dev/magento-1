@@ -1,0 +1,35 @@
+
+    <?php 
+	$enable = Mage::getStoreConfig('brandlogo/brandlogo_config/enabled') ;
+	if($enable <1) return ;
+    ?>
+    <?php 
+	$listBrands = $this->getBrandlogos();
+	    //Mage::log($listBrands, null, 'att.log');
+	$mediaUrl = Mage::getBaseUrl('media');
+	$baseUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
+	    $attr_current = $this->getRequest()->getParam('brand_val');
+	$linkBrands = $baseUrl.'brandlogo';
+		    foreach($listBrands as $att=>$brands) {
+			    if($attr_current!= $att) continue;
+			    $_attribute_code = Mage::getModel('eav/entity_attribute')->load($att)->getAttributeCode();
+			    
+			    echo '<h2><a href="#">'.$_attribute_code.'</a></h2>';
+			    echo '<ul id ="brandlogo">';
+			    foreach($brands as $brand) {
+				    echo '<li class ="brand_item">';
+					    $brandId = $brand->getBrandlogoId();
+					    $brandTitle = $brand->getTitle();
+					    $brandImage = $mediaUrl.$brand->getFilename();
+					    $brandValue = $brand->getValue();
+					    $brandLink = $baseUrl.'brandlogo/index/view/brand_val/'.$brandValue.'/brand_id/'.$brandId;
+					    echo '<div class ="brand_image">
+							    <a href ="'.$brandLink.'">';
+							    if($brand->getFilename()) echo '<img src = "'.$brandImage.'"  alt="'.$brandTitle.'">';
+					    echo '</a></div>
+				     </li>';
+				    }
+			    echo '</ul>';
+		    }
+    ?>
+

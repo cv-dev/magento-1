@@ -1,0 +1,9 @@
+.ma-upsellslider-container { margin-bottom: 20px; margin-top:10px;}
+.ma-upsellslider-container .ma-upsellslider-title { background: none; padding: 10px 0 10px 10px; margin-bottom: 20px; }
+.ma-upsellslider-title h2 {  text-transform: capitalize;  line-height: 20px; margin: 0; font: 24px/16px CorbelBold, sans-serif; color:#333;}
+.ma-upsellslider-container .bx-wrapper { position: relative; border: 1px solid #eee;  }
+.ma-upsellslider-container .bx-wrapper .bx-controls a { margin-top: -55px;}
+
+.ma-upsellslider-item { float: left; text-align: left;}
+
+.ma-upsellslider-item a.product-image { display: block; padding: 10px; margin-bottom: 10px; border-bottom: 1px solid #eee; }

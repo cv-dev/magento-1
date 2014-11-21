@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<sahara>
+    <blocks>
+        <block>
+            <title>Footer Static</title>
+            <identifier>footer_static</identifier>
+            <content>
+                      <![CDATA[<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+<div class="footer-static-title">
+<h3>about us</h3>
+</div>
+<div class="footer-static-content">
+<p class="info">At vero eos et accusamus et iusto odio dignissimos ducimus qui blan-ditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias...</p>
+<a class="logo" href="#">logo</a>
+</div>
+</div>
+<div class="f-col f-col2 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+<div class="footer-static-title">
+<h3>our support</h3>
+</div>
+<div class="footer-static-content row-fluid">
+<ul>
+<li class="first"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Sitemap</a></li>
+<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+<li><a href="{{store direct_url="customer/account/index"}}">Your Account</a></li>
+<li><a href="{{store direct_url="catalogsearch/advanced"}}">Advanced Search</a></li>
+<li><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+<li class="last"><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
+</ul>
+</div>
+</div>
+<div class="f-col f-col3 col-sm-6 col-md-3 col-sms-6 col-smb-12">
+<div class="footer-static-title">
+<h3>our service</h3>
+</div>
+<div class="footer-static-content">
+<ul>
+<li class="first"><a href="{{store direct_url="contacts"}}">My Account</a></li>
+<li><a href="{{store direct_url="contacts"}}">Order History</a></li>
+<li><a href="{{store direct_url="contacts"}}">Returns</a></li>
+<li><a href="{{store direct_url="contacts"}}">Specials</a></li>
+<li><a href="{{store direct_url="contacts"}}">Mobiles</a></li>
+<li class="last"><a href="{{store direct_url="catalog/seo_sitemap/category"}}">Site Map</a></li>
+</ul>
+</div>
+</div>
+<div class="f-col col-sm-6 col-md-3 col-sms-6 col-smb-12">
+<div class="footer-static-title last">
+<h3>information</h3>
+</div>
+<div class="footer-static-content last">
+<ul>
+<li class="first"><a href="{{store direct_url="about-magento-demo-store"}}">About us</a></li>
+<li><a href="{{store direct_url="contacts"}}">Delivery Information</a></li>
+<li><a href="{{store direct_url="privacy-policy-cookie-restriction-mode"}}">Privacy Policy</a></li>
+<li><a href="{{store direct_url="contacts"}}">Discount</a></li>
+<li><a href="{{store direct_url="customer-service"}}">Custom Service</a></li>
+<li class="last"><a href="{{store direct_url="catalogsearch/term/popular"}}">Terms &amp; Condition</a></li>
+</ul>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+        
+        <block>
+            <title>Banner Left</title>
+            <identifier>banner_left</identifier>
+            <content>
+                      <![CDATA[<div class="banner-left-static">
+<div class="social">
+<p>Get in touch !</p>
+<a class="social1" href="#"><img src="{{media url="wysiwyg/img-social1.png"}}" alt="" /></a> <a class="social2" href="#"><img src="{{media url="wysiwyg/img-social2.png"}}" alt="" /></a> <a class="social3" href="#"><img src="{{media url="wysiwyg/img-social3.png"}}" alt="" /></a> <a class="social4" href="#"><img src="{{media url="wysiwyg/img-social4.png"}}" alt="" /></a></div>
+<div class="banner shipping"><a href="#"><img src="{{media url="wysiwyg/img-banner-left1.png"}}" alt="" /></a>
+<h2 class="title">FREE SHIPPING !</h2>
+<h3 class="title2">Free shipping on order over $99</h3>
+<p class="des">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+<a class="viewmore" href="#">View more</a></div>
+<div class="banner support"><a href="#"><img src="{{media url="wysiwyg/img-banner-left2.png"}}" alt="" /></a>
+<h2 class="title">ONLINE SUPPORT</h2>
+<h3 class="title2">ONLINE SUPPORT 24/7</h3>
+<p class="des">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+<a class="viewmore" href="#">View more</a></div>
+<div class="banner money"><a href="#"><img src="{{media url="wysiwyg/img-banner-left3.png"}}" alt="" /></a>
+<h2 class="title">MONEY BACK!</h2>
+<h3 class="title2">30 DAYS MONEY BACK GUARANTEE</h3>
+<p class="des">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium</p>
+<a class="viewmore" href="#">View more</a></div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+        
+        <block>
+            <title>Custom Menu</title>
+            <identifier>pt_item_menu_custom_menu</identifier>
+            <content>
+                      <![CDATA[<div class="static_block_custom_menu">
+<div class="static-menu-block">
+<div class="static-menu-img"><a href="{{store url="men.html"}}"><img src="{{media url="wysiwyg/custom-menu.png"}}" alt="" /></a></div>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio sapien, tempor eget facilisis eget, dapibus vitae mi. Mauris auctor ultricies eros sit amet bibendum. Etiam dapibus erat sit amet nunc tincidunt ullamcorper. Integer quis tellus ut lorem imperdiet luctus sit amet nec felis. Sed in ipsum dolor, at dignissim sem. Fusce vestibulum, enim nec egestas dapibus, massa nulla convallis diam, id sodales tortor turpis nec ligula. Nunc bibendum enim id est malesuada sollicitudin. Fusce non ipsum ut augue rhoncus aliquet quis et mi. Suspendisse volutpat nunc eget metus rutrum eu venenatis nibh hendrerit.</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+        
+        <block>
+            <title>Banner Home Content</title>
+            <identifier>banner_home_content</identifier>
+            <content>
+                      <![CDATA[<div class="banner-home-content">
+<div class="banner-content row">
+<div class="banner-box banner-box1 col-xs-12 col-sm-6"><img src="{{media url="wysiwyg/banner-home-content1.jpg"}}" alt="" /></div>
+<div class="banner-box banner-box2 col-xs-12 col-sm-6"><a href="#"><img src="{{media url="wysiwyg/banner-home-content2.jpg"}}" alt="" /></a></div>
+</div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+        
+        <block>
+            <title>Banner Top</title>
+            <identifier>home_banner_static</identifier>
+            <content>
+                      <![CDATA[<div class="main_banner">
+<div class="banner1"><a href="#"><img class="img1" src="{{media url="wysiwyg/banner-home-static1.png"}}" alt="" /></a> <a href="#"><img class="img2" src="{{media url="wysiwyg/banner-home-static2.png"}}" alt="" /></a> <a href="#"><img class="img3" src="{{media url="wysiwyg/banner-home-static4.png"}}" alt="" /></a> <a href="#"><img class="img4" src="{{media url="wysiwyg/banner-home-static5.png"}}" alt="" /></a></div>
+<div class="banner2"><a href="#"><img src="{{media url="wysiwyg/banner-home-static3.png"}}" alt="" /></a></div>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+        
+        <block>
+            <title>Payment Bottom</title>
+            <identifier>paymen-bottom</identifier>
+            <content>
+                      <![CDATA[<div class="payment-bottom">
+<ul>
+<li><a href="#"><img src="{{media url="wysiwyg/social1.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/social2.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/social3.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/social4.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/social5.png"}}" alt="" /></a></li>
+<li><a href="#"><img src="{{media url="wysiwyg/social6.png"}}" alt="" /></a></li>
+</ul>
+</div>]]>
+            </content>
+            <is_active>1</is_active>
+        </block>
+        
+
+    </blocks>
+
+</sahara>
+

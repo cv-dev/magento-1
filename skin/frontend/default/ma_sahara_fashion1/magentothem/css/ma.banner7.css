@@ -1,0 +1,22 @@
+/*
+ * jQuery FlexSlider v2.0
+ * http://www.woothemes.com/flexslider/
+ *
+ * Copyright 2012 WooThemes
+ * Free to use under the GPLv2 license.
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ *
+ * Contributing author: Tyler Smith (@mbmufffin)
+ */
+
+
+.banner7-des{
+    left: 50%;
+    margin-left: -460px;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+    .banner7-des {
+        margin-left: -300px;
+    }
+}

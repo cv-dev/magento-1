@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name ='head'>
+            <action method="addCss"><stylesheet>magentothem/categorytabs/css/categorytabs.css</stylesheet></action>
+            <action method="addCss"><stylesheet>magentothem/categorytabs/css/styles.css</stylesheet></action>
+            <action method="addCss"><stylesheet>magentothem/categorytabs/css/effects.css</stylesheet></action>
+<!--             <action method="addJs"><script>magentothem/jquery.min.js</script></action>         
+            <action method="addJs"><script>magentothem/noconflict.js</script></action> -->
+        </reference>
+    </default>
+
+ <!--    <cms_index_index>
+        <reference name="head">
+         <action method="addCss"><stylesheet>magentothem/categorytabs/css/styles.css</stylesheet></action>
+         <action method="addCss"><stylesheet>magentothem/categorytabs/css/effects.css</stylesheet></action>
+         <action method="addJs"><script>magentothem/jquery.min.js</script></action>         
+         <action method="addJs"><script>magentothem/noconflict.js</script></action>             
+     	</reference>
+	</cms_index_index> -->
+</layout> 

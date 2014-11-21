@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<sahara>
+    <resources>
+        <resource>
+            <title>Sahara Home page</title>
+            <identifier>sahara_fashion1_home</identifier>
+            <root_template>two_columns_left</root_template>
+            <content><![CDATA[<div class="home-content">
+<div class="top-slider">{{widget type="categorytabs/advanced" title="WEEKLY FEATURED" identify="featured" cat_ids="6,113,50,5" template="magentothem/categorytabs/categorytabs.phtml" play_delay="500" products_count="4" product_on_row="1" width_thumbnail="175" height_thumbnail="228"}}</div>
+<div class="bottom slider1">{{widget type="categorytabsliders/advanced" title="Popular Shirts" identify="2" cat_ids="6,7,9,21," template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" product_on_row="4" width_thumbnail="175" height_thumbnail="228"}}</div>
+<div class="bottom slider2">{{widget type="categorytabsliders/advanced" title="Popular Trousers" identify="3" cat_ids="5,16,62,63" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" product_on_row="4" width_thumbnail="175" height_thumbnail="228"}}</div>
+<div class="bottom slider3">{{widget type="categorytabsliders/advanced" title="Popular Shoes" identify="4" cat_ids="113,105,111,114" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" product_on_row="4" width_thumbnail="175" height_thumbnail="228"}}</div>
+<div class="bottom slider4">{{widget type="categorytabsliders/advanced" title="Popular Bags" identify="5" cat_ids="53,50,51,52" template="magentothem/categorytabsliders/categorytabsliders.phtml" products_count="15" product_on_row="4" width_thumbnail="175" height_thumbnail="228"}}</div>
+</div>]]></content>
+            <sort_order>1</sort_order>
+            <is_active>1</is_active>
+        </resource>
+    </resources>
+</sahara>

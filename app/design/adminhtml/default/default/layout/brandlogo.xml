@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		<reference name = "head">
+			 <action method="addJs">
+				   <script>magentothem/brandlogo/ma.jq.slide.js</script>
+			 </action>
+			 <action method="addJs">
+				   <script>magentothem/brandlogo/form.js</script>
+			 </action>
+		</reference>
+	</default>
+    <brandlogo_adminhtml_brandlogo_index>
+        <reference name="content">
+            <block type="brandlogo/adminhtml_brandlogo" name="brandlogo" />
+        </reference>
+    </brandlogo_adminhtml_brandlogo_index>
+    <brandlogo_adminhtml_brandlogo_edit> 
+		<update handle="editor"/> 
+    </brandlogo_adminhtml_brandlogo_edit>
+</layout>
